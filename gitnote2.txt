@@ -1,0 +1,45 @@
+GIT CONFIG
+
+==>Link computer <=> repo
+
+git remote add origin https://github.com/Orient-J/git-test.git
+
+
+
+
+==>GIT COMMAND
+
+i.git init
+
+
+specify a folder from folders to be with git
+
+_______________________________________________________________________________
+
+
+ii.git remote add origin https://github.com/Orient-J/git-test.git
+
+
+link folder in local to repo
+
+_______________________________________________________________________________
+
+iii.git add file.ext	/	git add .
+
+add files to git
+
+Single File
+
+git add	file.ext
+
+Multi File
+
+git add .
+
+_______________________________________________________________________________
+
+iv.git commit -m "file comment"
+
+give a commit name to file added
+
+_______________________________________________________________________________

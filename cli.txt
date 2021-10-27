@@ -1,0 +1,235 @@
+==>CREATE SUBFOLDER
+
+Syntax = mkdir
+
+
+
+//Single sub folder
+
+$mkdir parent_folder_name/sub_folder_name
+
+//Muti sub folder
+
+$mkdir parent_folder-name/sub_folder_name parent_folder_name2/sub_folder_name2 . . .
+
+____________________________________________________________________________________
+
+==>CREATE A FOLDER WITH SPACE IN NAME
+
+Syntax = mkdir
+
+
+
+
+//Don't 
+
+$mkdir project number one
+
+//Do
+
+$mkdir "project number one"
+
+____________________________________________________________________________________
+
+==>SUGGESTION 
+
+Syntax = tab_key
+
+
+
+foldername = asdasdfsad
+
+$cd ./asd + Tab_key  === $cd ./asdasdfsad
+
+____________________________________________________________________________________
+
+==>OPEN SIMILAR FOLDER NAME with suggestion
+
+Syntax = tab_key
+
+
+
+folder1 = project1
+
+folder2 = project2
+
+$cd project + tab_key
+
+show two file and  choose
+
+____________________________________________________________________________________
+
+NOTE:: always create folder name with small letter and no space
+
+____________________________________________________________________________________
+
+
+==>CREATE A FILE 
+
+Syntax = touch
+
+
+
+$touch filename.extention
+
+=>EXE
+
+$touch text.txt
+$touch index.html
+$touch style.css
+$touch app.js
+
+$touch img.jpg/png/jpeg
+
+$touch foldername/filename.exe
+____________________________________________________________________________________
+
+==>TEXT EDITOR
+
+Syntax = nano 
+
+
+
+
+$nano filename.txt
+
+NOTE:: pure text editor , work as notepad
+____________________________________________________________________________________
+
+NOTE:: up and down arrow for history
+
+____________________________________________________________________________________
+
+==>CREATE ZIP FILE
+
+Syntax = zip
+
+
+
+
+$ZIP zipfilename.zip filename.txt filename.txt filename.txt
+
+NOTE:: only linux and macos , not window
+
+____________________________________________________________________________________
+
+==>COPY
+
+Syntax = cp
+
+
+
+=>Different Folder with same filename
+
+$cp filename.exe foldername
+
+
+
+=>Different Folder with different filename
+
+$cp filename.exe foldername/new_filename.exe
+
+
+
+=>Same Folder
+
+$cp filename.exe new_filename.exe
+
+NOTE:: must different in same folder , cp is also used for rename
+
+
+
+=>Copy Sub-folder in same parent folder
+
+
+$cp -r foldername(copy) foldername(new)
+
+*not found*
+
+$cp foldername(copy) foldername(new)
+
+
+____________________________________________________________________________________
+
+
+==>MOVE
+
+Syntax = mv
+
+
+
+=>Move Single File
+
+$mv filename.exe foldername
+
+
+
+=>Move Muli File
+
+$mv filename1.exe filename2.exe ... foldername
+
+
+
+=>Move Single Folder 
+
+$mv foldername(moved) foldername(destination)
+
+
+=>Move Multi Folder
+
+$mv foldername1 foldername2 foldername3 foldername(destination)
+
+____________________________________________________________________________________
+
+
+==>Delete Folder 
+
+Syntax = rm (remove) / 
+
+-r / -rf (with force)
+
+
+
+=>Delete Single File
+
+$rm filename.exe
+
+
+
+=>Delete Multi File 
+
+$rm filename1.exe filename2.exe filename3.exe ...
+
+
+
+=>Delete Folder 
+
+$rm -r foldername
+
+
+
+=>Delete Multi Folder
+
+$rm -r foldername1 foldername2 foldername3 ...
+
+
+
+=>Delete Multi Folder and File
+
+$rm -r foldername1 filename1 filename2 foldername2 ...
+
+
+
+=>Delete All
+
+$rm -r *
+
+NOTE:: any / all = *
+
+
+
+=>Delete with force
+
+$rm -rf *
+
+____________________________________________________________________________________

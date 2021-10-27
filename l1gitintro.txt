@@ -1,0 +1,9 @@
+Git = Version Control System
+
+==>CONFIG BY CLI
+
+=>git config --global user.name"yourgitusername"
+
+=>git config --global user.email"yourgitemail"
+
+--global = Can be from anywhere will use this only git acc / option
